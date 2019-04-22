@@ -1,12 +1,148 @@
-html, body {
-  margin: 0;
+body, html {
   padding: 0;
-  height: 100%;
-  background:	#FADA5E;
+  margin: 0;
+}
+
+h1, p {
+  margin: 0;
+}
+
+.left-nav {
+  box-sizing: border-box;
+  z-index: 10;
+  width: 280px;
+  background-color: white;
+  border-right: 1px solid #ccc;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  padding: 30px;
+}
+
+.dark-text {
+  color: #333;
+}
+
+.left-nav-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.left-nav-link {
   font-family: 'Raleway', sans-serif;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.left-nav-link:hover {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.left-nav-link.o__selected,
+.left-nav-link.o__selected:hover {
+  font-weight: 700;
+}
+
+.main-panel {
+  box-sizing: border-box;
+  height: 100vh;
+  margin-left: 280px;
+  min-height: fit-content;
+}
+
+.main-panel.purple {
+  background: linear-gradient(to right, #9B8993, #C2B7BD);
+}
+
+.main-panel.yellow {
+  background: linear-gradient(to right, #F7E093, #FFF2C3);
+}
+
+.panel-text {
+  padding: 60px;
+}
+
+.panel-text.white {
+  color: #eee;
+}
+
+.panel-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.panel-description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.panel-description.bold {
+  font-weight: 400;
+}
+
+.panel-spacer {
+  height: 30px;
+}
+
+.panel-price {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.panel-shipping-details {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.panel-handmade-details {
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 12px;
+  opacity: 0.7;
+}
+
+.panel-order-now-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 300px;
+  height: 50px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  transition: all 200ms ease-in-out;
+  background: transparent;
+}
+
+.panel-order-now-button:hover {
+  color: #333;
+  background: #eee;
+}
+
+.hero-model {
+  height: 100%;
+  margin-right: 5vw;
 }
 
 .layout__box {
@@ -14,6 +150,7 @@ html, body {
   min-width: 0;
   min-height: 0;
 }
+
 
 .layout__box.o__has-columns {
   display: flex;
@@ -57,29 +194,4 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.main-header {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-@media only screen and (min-width: 1024px) {
-  .main-header {
-    font-size: 120px;
-  }
-}
-@media only screen and (max-width: 1023px) {
-  .main-header {
-    font-size: 100px;
-  }
-}
-@media only screen and (max-width: 640px) {
-  .main-header {
-    font-size: 75px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .main-header {
-    font-size: 50px;
-  }
 }
