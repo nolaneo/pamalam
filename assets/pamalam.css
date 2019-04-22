@@ -111,6 +111,11 @@ h1, p {
   padding-top: 30px;
 }
 
+.main-panel-inner {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .main-panel.purple {
   background: linear-gradient(to right, #9B8993, #C2B7BD);
 }
