@@ -86,7 +86,7 @@ h1, p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 26px;
 }
 
 .panel-description.bold {
@@ -121,6 +121,9 @@ h1, p {
   opacity: 0.7;
 }
 
+.white .panel-order-now-button {
+  border: 1px solid white;
+}
 .panel-order-now-button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -130,7 +133,7 @@ h1, p {
   height: 50px;
   font-size: 12px;
   text-transform: uppercase;
-  border: 1px solid white;
+  border: 1px solid #333;
   transition: all 200ms ease-in-out;
   background: transparent;
 }
@@ -138,6 +141,7 @@ h1, p {
 .panel-order-now-button:hover {
   color: #333;
   background: #eee;
+  border-color: white;
 }
 
 .hero-model {
