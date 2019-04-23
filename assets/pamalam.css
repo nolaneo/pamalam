@@ -135,7 +135,7 @@ h1, p {
   text-transform: uppercase;
   color: #333;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -144,8 +144,9 @@ h1, p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #888;
-  font-size: 20px;
+  font-size: 1.5em;
   text-align: center;
+  font-weight: 300;
 }
 
 .sp {
