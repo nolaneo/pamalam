@@ -67,7 +67,6 @@ h1, p {
   font-weight: 300;
   font-size: 20px;
   position: fixed;
-  pointer-events: none;
   padding-left: 2vw;
   line-height: 6vh;
   top: 0;
@@ -79,7 +78,9 @@ h1, p {
   background-color: white;
   z-index: 20;
   transition: all 200ms ease-in-out;
+  text-decoration: none;
 }
+
 
 
 .left-nav-link {
@@ -115,6 +116,7 @@ h1, p {
 .gallery-wrapper {
   margin: 0 auto;
   width: 400px;
+  text-decoration: none;
 }
 
 .gallery-image {
@@ -138,6 +140,11 @@ h1, p {
   font-size: 1em;
   text-align: center;
   font-weight: 300;
+  text-decoration: none;
+}
+
+.gallery-description:hover {
+  text-decoration: underline;
 }
 
 .gallery-price {
@@ -160,7 +167,7 @@ h1, p {
   height: 94vh;
   min-height: fit-content;
   overflow: hidden;
-  padding-top: 30px;
+  padding-top: 6vh;
 }
 
 .main-panel-inner {
@@ -320,4 +327,16 @@ h1, p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.t__link {
+  text-decoration: none;
+}
+
+.t__link:hover {
+  text-decoration: underline;
+}
+
+.t__link:visited {
+  color: initial;
 }
