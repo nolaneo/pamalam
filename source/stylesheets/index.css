@@ -115,14 +115,13 @@ h1, p {
 
 .gallery-wrapper {
   margin: 0 auto;
-  width: 400px;
   text-decoration: none;
 }
 
 .gallery-image {
+  border-radius: 3px;
   box-sizing: border-box;
-  width: 400px;
-  height: 600px;
+  width: 100%;
   cursor: pointer;
   border: 1px solid #eee;
   transition: all 200ms ease-in-out;

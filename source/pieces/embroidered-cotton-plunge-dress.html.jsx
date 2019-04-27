@@ -1,7 +1,7 @@
-import Details from "./details.html.jsx"
+import Details from "../details.html.jsx"
 
 export const meta = {
-  id: "/organza-trousers-in-sheer-and-burnt-orange",
+  id: "embroidered-cotton-plunge-dress",
 }
 
 export default (props) => {

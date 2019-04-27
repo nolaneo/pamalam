@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Organza trousers",
       "price": "€125",
-      "path": "/organza-trousers-in-sheer-and-burnt-orange",
+      "path": "organza-trousers",
       "details": [
         "High waist front pleated trousers with pockets and cuffs",
         "Zip closure",
@@ -17,11 +17,11 @@
       "id": 2,
       "title": "Wool cashmere jacket",
       "price": "€145",
-      "path": "/wool-cashmere-short-sleeved-jacket"
+      "path": "wool-cashmere-jacket",
       "details": [
-        "Oversized short sleeved jacket"
-        "Lined in nsuburu wax cotton"
-        "Every item is handmade to order in your size" 
+        "Oversized short sleeved jacket",
+        "Lined in nsuburu wax cotton",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Wool cashmere, 100% wax cotton"
     },
@@ -29,24 +29,23 @@
       "id": 3,
       "title": "Black bodysuit",
       "price": "€75",
-      "path": "/sheer-pattern-bodysuit-in-black"
-         "details": [
-            "High neck sheer bodysuit"
-            "Zip closure"
-            "Ever item is handmade to order in your size" 
+      "path": "black-bodysuit",
+      "details": [
+        "High neck sheer bodysuit",
+        "Zip closure",
+        "Ever item is handmade to order in your size"
       ],
       "fabric": "Embroidered tulle"
-    
     },
     {
       "id": 4,
       "title": "Embroidered tulle drape cardigan",
       "price": "€139",
-      "path": "/embroidered-tulle-and-leather-drape-cardigan"
-           "details": [
-            "Wide drape cardigan in embroidered tulle"
-            "Full leather edging" 
-            "Ever item is handmade to order in your size" 
+      "path": "embroidered-tulle-drape-cardigan",
+      "details": [
+        "Wide drape cardigan in embroidered tulle",
+        "Full leather edging",
+        "Ever item is handmade to order in your size"
       ],
       "fabric": "Embroidered tulle, leather"
     },
@@ -54,13 +53,13 @@
       "id": 5,
       "title": "Embroidered cotton plunge dress",
       "price": "€115",
-      "path": "/embroidered-cotton-plunge-dress"
+      "path": "embroidered-cotton-plunge-dress",
       "details": [
-            "Embroidered cotton dress with a plunging neckline" 
-            "Lined in cotton"
-            "Above knee length"
-            "Zip closure"
-            "Ever item is handmade to order in your size" 
+        "Embroidered cotton dress with a plunging neckline",
+        "Lined in cotton",
+        "Above knee length",
+        "Zip closure",
+        "Ever item is handmade to order in your size"
       ],
       "fabric": "Cotton"
     },
@@ -68,10 +67,10 @@
       "id": 6,
       "title": "Silk shirt with leather collar",
       "price": "€95",
-      "path": "/silk-shirt-with-leather-collar-in-black"
-       "details": [
-            "Loose shirt in a silk blend with a leather collar" 
-            "Button closure"
+      "path": "silk-shirt-with-leather-collar",
+      "details": [
+        "Loose shirt in a silk blend with a leather collar",
+        "Button closure"
       ],
       "fabric": "Silk blend, leather"
     },
@@ -79,11 +78,11 @@
       "id": 7,
       "title": "Wool cashmere cape",
       "price": "€195",
-      "path": "/wool-cashmere-cape"
-         "details": [
-            "Cape in a heavy wool cashmere"
-            "Lined with black silk blend"
-            "Zip closure"
+      "path": "wool-cashmere-cape",
+      "details": [
+        "Cape in a heavy wool cashmere",
+        "Lined with black silk blend",
+        "Zip closure"
       ],
       "fabric": "Wool cashmere, silk blend"
     },
@@ -91,11 +90,11 @@
       "id": 8,
       "title": "Embroidered bodysuit",
       "price": "€75",
-      "path": "/sheer-flower-bodysuit-in-white-and-yellow"
-          "details": [
-           "High neck sheer bodysuit"
-            "Zip closure"
-            "Every item is handmade to order in your size" 
+      "path": "embroidered-bodysuit",
+      "details": [
+        "High neck sheer bodysuit",
+        "Zip closure",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Embroidered tulle"
     },
@@ -103,13 +102,13 @@
       "id": 9,
       "title": "Leopard print dress",
       "price": "€135",
-      "path": "/leopard-print-dress"
+      "path": "leopard-print-dress",
       "details": [
-            "Strapless leopard print dress"
-            "Fully lined with silk blend"
-            "Knee length"
-            "Zip closure"
-            "Every item is handmade to order in your size" 
+        "Strapless leopard print dress",
+        "Fully lined with silk blend",
+        "Knee length",
+        "Zip closure",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Polyester, silk blend"
     },
@@ -117,12 +116,12 @@
       "id": 10,
       "title": "Bulgary linen trousers",
       "price": "€195",
-      "path": "/linen-trousers-in-bulgary-print"
+      "path": "bulgary-linen-trousers",
       "details": [
-           "High waist front pleated trousers with pockets and cuffs"
-            "Zip closure"
-            "3/4 length"
-            "Every item is handmade to order in your size" 
+        "High waist front pleated trousers with pockets and cuffs",
+        "Zip closure",
+        "3/4 length",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "100% Linen"
     },
@@ -130,24 +129,24 @@
       "id": 11,
       "title": "Silk and organza shirt with leather collar",
       "price": "€115",
-      "path": "/silk-and-organza-shirt-with-leather-collar"
-    "details": [
-            "Loose shirt in a silk blend with a leather collar" 
-            "Button closure"
-            "Every item is handmade to order in your size"
+      "path": "silk-and-organza-shirt-with-leather-collar",
+      "details": [
+        "Loose shirt in a silk blend with a leather collar",
+        "Button closure",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Silk blend, leather, organza"
     },
     {
       "id": 12,
-       "title": "Linen and silk cotton trousers",
+      "title": "Linen and silk cotton trousers",
       "price": "€125",
-      "path": "hmmmm"
+      "path": "linen-and-silk-cotton-trousers",
       "details": [
-           "High waist front pleated trousers with pockets and cuffs"
-            "Zip closure"
-            "3/4 length"
-            "Every item is handmade to order in your size" 
+        "High waist front pleated trousers with pockets and cuffs",
+        "Zip closure",
+        "3/4 length",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "100% Linen, silk cotton blend"
     },
@@ -155,12 +154,12 @@
       "id": 13,
       "title": "Silk skirt with pockets",
       "price": "€185",
-      "path": "/silk-cocktail-skirt-with-pockets"
+      "path": "silk-skirt-with-pockets",
       "details": [
-         "High waist, full skirt with pockets"
-          "Zip closure"
-          "Knee length"
-          "Every item is handmade to order in your size"
+        "High waist, full skirt with pockets",
+        "Zip closure",
+        "Knee length",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "100% Silk dupioni and wool cashmere"
     },
@@ -168,12 +167,12 @@
       "id": 14,
       "title": "Nsuburu drape cardigan",
       "price": "€159",
-      "path": "/nsuburu-print-and-leather-drape-cardigan"
-     "details": [
-            "Wide drape cardigan in nsuburu print cotton"
-            "Full leather edging" 
-            "Lined in pink satin"
-            "Ever item is handmade to order in your size" 
+      "path": "nsuburu-drape-cardigan",
+      "details": [
+        "Wide drape cardigan in nsuburu print cotton",
+        "Full leather edging",
+        "Lined in pink satin",
+        "Ever item is handmade to order in your size"
       ],
       "fabric": "100% wax cotton, leather, satin"
     },
@@ -181,13 +180,13 @@
       "id": 15,
       "title": "Satin and tulle plunge dress",
       "price": "€125",
-      "path": "/satin-and-embroidered-tulle-plunge-dress"
+      "path": "satin-and-tulle-plunge-dress",
       "details": [
-           "Satin and tulle dress with a plunging neckline"
-            "Zip closure"
-            "Fully lined"
-            "Above knee"
-            "Every item is handmade to order in your size"
+        "Satin and tulle dress with a plunging neckline",
+        "Zip closure",
+        "Fully lined",
+        "Above knee",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Satin, tulle, silk organza"
     },
@@ -195,11 +194,11 @@
       "id": 16,
       "title": "Panelled shirt with leather collar",
       "price": "€125",
-      "path": "/panelled-shirt-with-leather-collar"
-     "details": [
-            "Loose mustard and pink panelled shirt in a textured chiffon with a leather collar" 
-            "Button closure"
-            "Every item is handmade to order in your size"
+      "path": "panelled-shirt-with-leather-collar",
+      "details": [
+        "Loose mustard and pink panelled shirt in a textured chiffon with a leather collar",
+        "Button closure",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Textured chiffon"
     },
@@ -207,12 +206,12 @@
       "id": 17,
       "title": "Leather pencil skirt",
       "price": "€149",
-      "path": "/leather-pencil-skirt"
+      "path": "leather-pencil-skirt",
       "details": [
-           "Fitted leather pencil skirt"
-           "Lined in black silk blend"
-            "Zip closure"
-            "Every item is handmade to order in your size" 
+        "Fitted leather pencil skirt",
+        "Lined in black silk blend",
+        "Zip closure",
+        "Every item is handmade to order in your size"
       ],
       "fabric": "Leather, silk blend"
     }

@@ -7,8 +7,8 @@ export default (props) => {
     <Layout title="Pamalam | New Collection">
       <Hero></Hero>
       <div className="gallery">
-        {props.data.pamalam.pieces.map(piece => {
-          return <GalleryWrapper {...piece}></GalleryWrapper>
+        {props.data.pamalam.pieces.map((piece, index) => {
+          return <GalleryWrapper key={index} {...piece}></GalleryWrapper>
         })}
       </div>
     </Layout>
