@@ -1,0 +1,4 @@
+charge build source site
+cp CNAME ./site
+git commit -am "site release"
+git subtree push --prefix site origin gh-pages
