@@ -7,7 +7,7 @@ export default (props) => {
     <Layout title={`Pamalam | ${piece.title}`}>
       <div className="main-panel grey">
         <div className="main-panel-inner layout__box o__has-columns o__flexes-to-1">
-          <div className="panel-text layout__box o__has-rows o__flexes-to-1">
+          <div className="panel-text layout__box o__has-rows o__flexes-to-2">
             <h1 className="panel-title">{piece.title}</h1>
             {piece.details.map(detail => {
               return <p className="panel-description">{detail}</p>
@@ -30,7 +30,9 @@ export default (props) => {
               Order Now
             </div>
           </div>
-          <img className="hero-model" alt="Model in Leopard Print Dress" src="/assets/images/leopardprintdress3.png"/>
+          <div class="layout__box o__flexes-to-1 o__has-columns o__centers-all">
+            <img className="hero-model" alt="Model in Leopard Print Dress" src={`/assets/images/pieces/${piece.path}/1.jpg`}/>
+          </div>
         </div>
       </div>
     </Layout>
