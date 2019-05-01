@@ -26,9 +26,9 @@ export default (props) => {
               Please allow 4 - 8 weeks for delivery.
             </p>
             <div className="panel-spacer"></div>
-            <div className="panel-order-now-button layout__box o__centers-all">
+            <a href={piece.link} className="panel-order-now-button layout__box o__centers-all">
               Order Now
-            </div>
+            </a>
           </div>
           <div class="layout__box o__flexes-to-1 o__has-columns o__centers-all">
             <img className="hero-model" alt="Model in Leopard Print Dress" src={`/assets/images/pieces/${piece.path}/1.jpg`}/>
