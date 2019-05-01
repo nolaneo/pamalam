@@ -26,7 +26,7 @@ export default (props) => {
               Please allow 4 - 8 weeks for delivery.
             </p>
             <div className="panel-spacer"></div>
-            <a href={piece.link} className="panel-order-now-button layout__box o__centers-all">
+            <a href="{piece.link}" className="panel-order-now-button layout__box o__centers-all">
               Order Now
             </a>
           </div>
