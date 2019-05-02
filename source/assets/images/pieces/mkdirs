@@ -1,0 +1,4 @@
+for VARIABLE in wool-cashmere-jacket black-bodysuit embroidered-tulle-drape-cardigan embroidered-cotton-plunge-dress silk-shirt-with-leather-collar wool-cashmere-cape embroidered-bodysuit leopard-print-dress bulgary-linen-trousers silk-and-organza-shirt-with-leather-collar linen-and-silk-cotton-trousers silk-skirt-with-pockets nsuburu-drape-cardigan satin-and-tulle-plunge-dress panelled-shirt-with-leather-collar leather-pencil-skirt
+do
+  mkdir $VARIABLE
+done

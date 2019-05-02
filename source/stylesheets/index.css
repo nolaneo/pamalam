@@ -266,6 +266,7 @@ h1, p {
   transition: all 100ms ease-in-out;
   background: #F1C40F;
   color: white;
+  text-decoration: none;
 }
 
 .panel-order-now-button:hover {
