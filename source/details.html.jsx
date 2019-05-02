@@ -31,7 +31,7 @@ export default (props) => {
             </a>
           </div>
           <div class="layout__box o__flexes-to-1 o__has-columns o__centers-all">
-            <img className="hero-model" alt="Model in Leopard Print Dress" src={`/assets/images/pieces/${piece.path}/1.jpg`}/>
+            <img className="hero-model" alt={piece.title} src={`/assets/images/pieces/${piece.path}/1.jpg`}/>
           </div>
         </div>
       </div>
