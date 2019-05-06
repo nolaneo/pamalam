@@ -1,5 +1,6 @@
 charge build source site
 cp CNAME ./site
 git add site
-git commit -am "site release"
-git push origin `git subtree split --prefix site origin gh-pages ` --force-with-lease
+git subtree split --prefix site -b gh-pages
+git push -f origin gh-pages:gh-pages
+git branch -D gh-pages
