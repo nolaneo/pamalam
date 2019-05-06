@@ -22,16 +22,16 @@ export default (props) => {
               Free international shipping
             </p>
             <p className="panel-handmade-details">
-              Every item is handmade to order and shipped by registered mail.<br/>
+              Every item is handmade to order and shipped by registered mail.<br />
               Please allow 4 - 8 weeks for delivery.
             </p>
             <div className="panel-spacer"></div>
             <a href={piece.link} className="panel-order-now-button layout__box o__centers-all" target="_blank">
-              Order Now
+              Buy now on Etsy
             </a>
           </div>
           <div class="layout__box o__flexes-to-1 o__has-columns o__centers-all">
-            <img className="hero-model" alt={piece.title} src={`/assets/images/pieces/${piece.path}/1.jpg`}/>
+            <img className="hero-model" alt={piece.title} src={`/assets/images/pieces/${piece.path}/1.jpg`} />
           </div>
         </div>
       </div>
