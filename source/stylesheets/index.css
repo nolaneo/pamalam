@@ -201,6 +201,7 @@ h1, p {
 
 .panel-text {
   padding: 10vh 10vw;
+  max-width: 50vw;
 }
 
 .panel-text.white {
