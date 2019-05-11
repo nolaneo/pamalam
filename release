@@ -1,4 +1,3 @@
-rm -rf site
 mkdir site
 charge build source site
 cp CNAME ./site
