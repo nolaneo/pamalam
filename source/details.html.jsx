@@ -17,21 +17,21 @@ export default props => {
   }
   return (
     <Layout title={`Pamalam | ${piece.title}`}>
-      <div class="details__wrapper-container layout__box o__has-columns o__centers-horizontally">
-        <div class="details__wrapper layout__box o__has-columns">
-          <div class="details__thumbnail-gallery layout__box o__has-rows">
+      <div className="details__wrapper-container layout__box o__has-columns o__centers-horizontally">
+        <div className="details__wrapper layout__box o__has-columns">
+          <div className="details__thumbnail-gallery layout__box o__has-rows">
             {imageURLs.map(url => {
               return (
                 <div
-                  class="details__thumbnail"
+                  className="details__thumbnail"
                   style={{ "background-image": `url(${url})` }}
                 />
               );
             })}
           </div>
-          <div class="layout__box o__has-rows">
+          <div className="layout__box o__has-rows">
             <div
-              class="details__main-image"
+              className="details__main-image"
               style={{
                 "background-image": `url(/assets/images/pieces/${piece.path}/${
                   piece.imagePath
