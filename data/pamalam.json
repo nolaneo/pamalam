@@ -32,10 +32,7 @@
       "title": "Black bodysuit",
       "price": "€75",
       "path": "black-bodysuit",
-      "details": [
-        "High neck sheer bodysuit",
-        "Zip closure"
-      ],
+      "details": ["High neck sheer bodysuit", "Zip closure"],
       "fabric": "Material: Embroidered tulle",
       "link": "https://www.etsy.com/listing/699654063/black-and-sheer-bodysuit",
       "number_of_images": 3
@@ -63,7 +60,6 @@
         "Lined in cotton",
         "Above knee length",
         "Zip closure"
-
       ],
       "fabric": "Material: Cotton",
       "link": "https://www.etsy.com/listing/701376317/embroidered-cotton-plunge-dress",
@@ -101,11 +97,7 @@
       "title": "Embroidered bodysuit",
       "price": "€75",
       "path": "embroidered-bodysuit",
-      "details": [
-        "High neck sheer bodysuit",
-        "Zip closure"
-
-      ],
+      "details": ["High neck sheer bodysuit", "Zip closure"],
       "fabric": "Material: Embroidered tulle",
       "link": "https://www.etsy.com/listing/701380355/sheer-flower-bodysuit-in-white-and",
       "number_of_images": 3
@@ -120,7 +112,6 @@
         "Fully lined with silk blend",
         "Knee length",
         "Zip closure"
-
       ],
       "fabric": "Material: Polyester, silk blend",
       "link": "https://www.etsy.com/listing/699651805/leopard-print-dress",
@@ -135,7 +126,6 @@
         "High waist front pleated trousers with pockets and cuffs",
         "Zip closure",
         "3/4 length"
-
       ],
       "fabric": "Material: 100% Linen",
       "link": "https://www.etsy.com/listing/687524760/linen-trousers-in-bulgary",
@@ -151,7 +141,8 @@
         "Button closure"
       ],
       "fabric": "Material: Silk blend, leather, organza",
-      "link": "https://www.etsy.com/listing/687523392/silk-and-organza-shirt-with-leather"
+      "link": "https://www.etsy.com/listing/687523392/silk-and-organza-shirt-with-leather",
+      "number_of_images": 4
     },
     {
       "id": 12,

@@ -18,6 +18,15 @@
   background-position: center;
   margin-bottom: 20px;
   border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: all 100ms ease-in-out;
+  filter: grayscale(100%) contrast(150%);
+}
+
+.details__thumbnail:hover {
+  border-color: #f1c40f;
+  filter: none;
 }
 
 .details__main-image {
