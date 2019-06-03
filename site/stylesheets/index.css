@@ -41,7 +41,7 @@
 }
 
 .details__information {
-  width: 600px;
+  width: 500px;
   height: 640px;
 }
 
@@ -60,6 +60,91 @@
 
 .details__spacer {
   height: 40px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
+  .mobile {
+    display: block;
+    overflow: auto;
+    text-align: center;
+  }
+  .desktop {
+    display: none !important;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .details__mobile-hero {
+    margin-top: 6vh;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .swiper-wrapper {
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .details__mobile-thumbnail {
+    width: 100vw;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    -webkit-filter: brightness(100);
+            filter: brightness(100);
+    opacity: 0.2;
+  }
+
+  .details__mobile-information {
+    padding: 2rem;
+  }
+
+  .details__mobile-title {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #555;
+  }
+
+  .mobile .panel-spacer {
+    height: 5rem;
+  }
+
+  .mobile .panel-description {
+    margin-bottom: 1rem;
+  }
+
+  .mobile-panel-price {
+    font-size: 4rem;
+  }
+
+  .mobile-order-now-button {
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 100%;
+    height: 6rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background: #f1c40f;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 body,
@@ -146,6 +231,13 @@ p {
   z-index: 20;
   transition: all 200ms ease-in-out;
   text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
+  .main-nav-title {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
 
 .left-nav-link {
@@ -412,4 +504,18 @@ p {
 .t__link:visited {
   color: #000;
   color: initial;
+}
+
+.quote {
+  border-top: 1px solid #eee;
+  padding: 100px;
+}
+
+.quote__inner {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #aaa;
+  font-size: 24px;
+  line-height: 36px;
 }
