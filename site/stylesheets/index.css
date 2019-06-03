@@ -22,13 +22,13 @@
   border: 1px solid white;
   transition: all 100ms ease-in-out;
   -webkit-filter: grayscale(100%) contrast(150%);
-  filter: grayscale(100%) contrast(150%);
+          filter: grayscale(100%) contrast(150%);
 }
 
 .details__thumbnail:hover {
   border-color: #f1c40f;
   -webkit-filter: none;
-  filter: none;
+          filter: none;
 }
 
 .details__main-image {
@@ -196,6 +196,20 @@ p {
   height: 32px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
+  .down-arrow {
+    position: absolute;
+    bottom: 2rem;
+    left: calc(50% - 3rem);
+    fill: white;
+  }
+
+  .down-arrow svg {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
 .left-nav {
   box-sizing: border-box;
   z-index: 10;
@@ -283,7 +297,7 @@ p {
 
 .gallery-image {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   border-radius: 3px;
   box-sizing: border-box;
   max-width: 100%;
@@ -296,7 +310,7 @@ p {
 .gallery-image:hover {
   border-color: #f9e79f;
   -webkit-filter: brightness(105%);
-  filter: brightness(105%);
+          filter: brightness(105%);
 }
 
 .gallery-description {
@@ -518,10 +532,11 @@ p {
 }
 
 .quote__inner {
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  color: #aaa;
-  font-size: 3rem;
-  line-height: 4rem;
+  color: #888;
+  font-size: 1.5rem;
+  line-height: 3rem;
 }
