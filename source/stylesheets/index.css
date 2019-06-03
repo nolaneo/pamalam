@@ -43,6 +43,20 @@ p {
   height: 32px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
+  .down-arrow {
+    position: absolute;
+    bottom: 2rem;
+    left: calc(50% - 3rem);
+    fill: white;
+  }
+
+  .down-arrow svg {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
 .left-nav {
   box-sizing: border-box;
   z-index: 10;
@@ -360,10 +374,11 @@ p {
 }
 
 .quote__inner {
-  width: 500px;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  color: #aaa;
-  font-size: 24px;
-  line-height: 36px;
+  color: #888;
+  font-size: 1.5rem;
+  line-height: 3rem;
 }
