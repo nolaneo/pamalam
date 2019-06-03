@@ -85,8 +85,7 @@ export default props => {
               );
             })}
           </div>
-          <div class="swiper-button-next" />
-          <div class="swiper-button-prev" />
+          <div class="swiper-pagination" />
         </div>
 
         <div className="details__mobile-information layout__box o__has-rows">

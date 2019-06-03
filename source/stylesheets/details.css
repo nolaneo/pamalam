@@ -79,6 +79,19 @@
     height: 100%;
   }
 
+  .swiper-pagination-bullet {
+    background: white;
+    opacity: 0.5;
+    margin: 1rem !important;
+    width: 1rem !important;
+    height: 1rem !important;
+    transition: opacity 200ms ease-in-out;
+  }
+
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
   .details__mobile-hero {
     margin-top: 6vh;
     width: 100vw;
@@ -98,12 +111,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .swiper-button-prev,
-  .swiper-button-next {
-    filter: brightness(100);
-    opacity: 0.2;
   }
 
   .details__mobile-information {
