@@ -23,6 +23,11 @@ export default props => {
         <link href="/stylesheets/index.css" rel="stylesheet" />
         <script type="text/javascript" src="/javascripts/index.js" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js" />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-141344238-1"
+        />
       </head>
 
       <body>
