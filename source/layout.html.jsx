@@ -4,6 +4,8 @@ export default props => {
       <head>
         <title>{props.title}</title>
         <title>PAMALAM | New Collection</title>
+        <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
         <link
           href="https://fonts.googleapis.com/css?family=Raleway"
           rel="stylesheet"
