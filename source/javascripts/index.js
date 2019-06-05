@@ -1,3 +1,14 @@
+document.addEventListener("scroll", () => {
+  if (!window.showingIntercom) {
+    window.showingIntercom = true;
+    setTimeout(function() {
+      Intercom("update", {
+        hide_default_launcher: false
+      });
+    }, 500);
+  }
+});
+
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll(".details__thumbnail").forEach(thumbnail => {
     thumbnail.addEventListener("click", e => {
@@ -25,7 +36,8 @@ gtag("js", new Date());
 gtag("config", "UA-141344238-1");
 
 window.intercomSettings = {
-  app_id: "ec3q1hf4"
+  app_id: "ec3q1hf4",
+  hide_default_launcher: true
 };
 
 (function() {
