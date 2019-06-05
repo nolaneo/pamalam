@@ -106,7 +106,7 @@ export default props => {
           <div className="panel-spacer" />
           <p className="mobile-panel-price">{piece.price}</p>
           <div className="panel-spacer" />
-
+          <div className="panel-spacer" />
           <a
             href={piece.link}
             className="mobile-order-now-button layout__box o__centers-all"
@@ -114,6 +114,7 @@ export default props => {
           >
             Buy now on Etsy
           </a>
+          <div className="panel-spacer" />
           <div className="panel-spacer" />
           <p className="panel-shipping-details">Free international shipping</p>
           <p className="panel-handmade-details">

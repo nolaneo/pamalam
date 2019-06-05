@@ -5,6 +5,7 @@ html {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  max-width: 100%;
 }
 
 h1,
@@ -42,7 +43,7 @@ p {
   width: 32px;
   height: 32px;
 }
-
+/*
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
   .down-arrow {
     position: absolute;
@@ -55,7 +56,7 @@ p {
     width: 6rem;
     height: 6rem;
   }
-}
+} */
 
 .left-nav {
   box-sizing: border-box;
@@ -102,7 +103,6 @@ p {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
   .main-nav-title {
-    font-size: 3rem;
     text-align: center;
   }
 }
@@ -133,9 +133,15 @@ p {
   display: grid;
   min-height: 100vh;
   min-width: 100vw;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   grid-gap: 3vw;
 }
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .gallery {
+    grid-template-columns: initial;
+  }
+} */
 
 .gallery-wrapper {
   margin: 0 auto;
@@ -167,6 +173,7 @@ p {
   text-align: center;
   font-weight: 300;
   text-decoration: none;
+  max-width: 90wv;
 }
 
 .gallery-description:hover {
@@ -183,7 +190,7 @@ p {
   font-weight: 500;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .gallery-description,
   .gallery-price {
     font-size: 2em;
@@ -195,7 +202,7 @@ p {
   .gallery-price {
     font-size: 1.5em;
   }
-}
+} */
 
 .sp {
   margin-top: 40px;
@@ -373,7 +380,7 @@ p {
   padding: 100px;
 }
 
-.quote__inner {
+/* .quote__inner {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -381,4 +388,4 @@ p {
   color: #888;
   font-size: 1.5rem;
   line-height: 3rem;
-}
+} */

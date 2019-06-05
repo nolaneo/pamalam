@@ -4,6 +4,7 @@ export default props => {
       <head>
         <title>{props.title}</title>
         <title>PAMALAM | New Collection</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 
         <link

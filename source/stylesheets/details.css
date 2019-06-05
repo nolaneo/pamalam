@@ -82,9 +82,6 @@
   .swiper-pagination-bullet {
     background: white;
     opacity: 0.5;
-    margin: 1rem !important;
-    width: 1rem !important;
-    height: 1rem !important;
     transition: opacity 200ms ease-in-out;
   }
 
@@ -114,19 +111,21 @@
   }
 
   .details__mobile-information {
-    padding: 2rem;
+    padding: 1rem 2rem 2rem;
+    margin-bottom: 4rem;
   }
 
   .details__mobile-title {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: 100;
     text-transform: uppercase;
     color: #555;
+    margin-bottom: 1rem;
   }
 
   .mobile .panel-spacer {
-    height: 5rem;
+    height: 1rem;
   }
 
   .mobile .panel-description {
@@ -134,16 +133,16 @@
   }
 
   .mobile-panel-price {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .mobile-order-now-button {
     font-weight: 500;
     cursor: pointer;
-    border-radius: 1rem;
+    border-radius: 3px;
     width: 100%;
-    height: 6rem;
-    font-size: 3rem;
+    height: 3rem;
+    font-size: 1rem;
     text-transform: uppercase;
     background: #f1c40f;
     color: white;
