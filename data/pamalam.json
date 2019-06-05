@@ -1,6 +1,5 @@
 {
-  "pieces": [
-    {
+  "pieces": [{
       "id": 1,
       "title": "Organza trousers",
       "price": "€125",
@@ -174,16 +173,16 @@
     },
     {
       "id": 14,
-      "title": "Nsuburu drape cardigan",
+      "title": "Nsubura drape cardigan",
       "price": "€159",
-      "path": "nsuburu-drape-cardigan",
+      "path": "nsubura-drape-cardigan",
       "details": [
-        "Wide drape cardigan in nsuburu print cotton",
+        "Wide drape cardigan in nsubura print cotton",
         "Full leather edging",
         "Lined in pink satin"
       ],
       "fabric": "Material: 100% wax cotton, leather, satin",
-      "link": "https://www.etsy.com/listing/687524064/nsuburu-print-and-leather-drape-cardigan",
+      "link": "https://www.etsy.com/listing/687524064/nsubura-print-and-leather-drape-cardigan",
       "number_of_images": 3
     },
     {
