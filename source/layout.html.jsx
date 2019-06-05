@@ -44,6 +44,27 @@ export default props => {
           </a>
         </div>
         {props.children}
+        <div class="layout__box footer o__centers-horizontally">
+          <div class="layout__box footer-boxes">
+            <div class="footer-item-container">
+              <a class="footer-item" href="mailto:info@pamalam.com">
+                info@pamalam.com
+              </a>
+            </div>
+            <div class="footer-item-container">
+              <a
+                class="footer-item"
+                href="https://instagram.com/pamalam_studio"
+                target="_blank"
+              >
+                Follow us on Instagram
+              </a>
+            </div>
+            <div class="footer-item-container">
+              <a class="footer-item chat-with-us">Chat with us</a>
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );

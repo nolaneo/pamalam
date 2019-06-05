@@ -10,6 +10,10 @@ document.addEventListener("scroll", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector(".chat-with-us").addEventListener("click", function() {
+    Intercom("showNewMessage");
+  });
+
   document.querySelectorAll(".details__thumbnail").forEach(thumbnail => {
     thumbnail.addEventListener("click", e => {
       document.querySelector(".details__main-image").style.backgroundImage =

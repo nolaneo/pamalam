@@ -4,6 +4,8 @@
 
 .details__wrapper {
   padding: 20px;
+  box-sizing: border-box;
+  height: 94vh;
 }
 
 .details__thumbnail-gallery {
