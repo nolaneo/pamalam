@@ -12,6 +12,9 @@
     }
   });
   document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector(".chat-with-us").addEventListener("click", function () {
+      Intercom("showNewMessage");
+    });
     document.querySelectorAll(".details__thumbnail").forEach(function (thumbnail) {
       thumbnail.addEventListener("click", function (e) {
         document.querySelector(".details__main-image").style.backgroundImage = e.target.style.backgroundImage;
