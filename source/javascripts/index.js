@@ -1,18 +1,18 @@
-document.addEventListener("scroll", () => {
-  if (!window.showingIntercom) {
-    window.showingIntercom = true;
-    setTimeout(function() {
-      Intercom("update", {
-        hide_default_launcher: false
-      });
-    }, 500);
-  }
-});
+// document.addEventListener("scroll", () => {
+//   if (!window.showingIntercom) {
+//     window.showingIntercom = true;
+//     setTimeout(function() {
+//       Intercom("update", {
+//         hide_default_launcher: false
+//       });
+//     }, 500);
+//   }
+// });
 
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector(".chat-with-us").addEventListener("click", function() {
-    Intercom("showNewMessage");
-  });
+  // document.querySelector(".chat-with-us").addEventListener("click", function() {
+  //   Intercom("showNewMessage");
+  // });
 
   document.querySelectorAll(".details__thumbnail").forEach(thumbnail => {
     thumbnail.addEventListener("click", e => {
@@ -125,6 +125,17 @@ gtag("config", "UA-141344238-1");
 })();
 drift.config({
   enableWelcomeMessage: false
+});
+drift.on("ready", function(api) {
+  api.widget.hide();
+  document.addEventListener("scroll", () => {
+    if (!window.showingDrift) {
+      window.showingDrift = true;
+      setTimeout(function() {
+        api.widget.show();
+      }, 500);
+    }
+  });
 });
 drift.SNIPPET_VERSION = "0.3.1";
 drift.load("62n6fp4hvuex");
