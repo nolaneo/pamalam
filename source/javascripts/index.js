@@ -123,9 +123,7 @@ gtag("config", "UA-141344238-1");
       });
   }
 })();
-drift.config({
-  enableWelcomeMessage: false
-});
+
 drift.on("ready", function(api) {
   api.widget.hide();
   document.addEventListener("scroll", () => {
@@ -139,3 +137,6 @@ drift.on("ready", function(api) {
 });
 drift.SNIPPET_VERSION = "0.3.1";
 drift.load("62n6fp4hvuex");
+drift.config({
+  enableWelcomeMessage: false
+});
