@@ -72,6 +72,9 @@
         }, 500);
       }
     });
+    document.querySelector(".chat-with-us").addEventListener("click", function () {
+      api.sidebar.open();
+    });
   });
   drift.SNIPPET_VERSION = "0.3.1";
   drift.load("62n6fp4hvuex");
