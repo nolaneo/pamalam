@@ -285,7 +285,14 @@ p {
   opacity: 0.7;
 }
 
-/* .panel-order-now-button {
+.panel-order-now-button {
+  width: 300px;
+  height: 50px;
+  border-radius: 2px;
+  background: #f1c40f;
+}
+
+.panel-order-now-button .shopify-buy__btn {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
@@ -298,13 +305,15 @@ p {
   background: #f1c40f;
   color: white;
   text-decoration: none;
+  border: 0;
+  outline: none;
 }
 
-.panel-order-now-button:hover {
+.panel-order-now-button .shopify-buy__btn:hover {
   color: white;
   background: #f4d03f;
   border-color: white;
-} */
+}
 
 .white .panel-order-now-button:hover {
   color: #333;

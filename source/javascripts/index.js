@@ -36,104 +36,75 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   let shopifyUI = ShopifyBuy.UI.init(client);
 
-  let buyButton = document.querySelector(".order-now-button");
-  if (buyButton) {
-    shopifyUI.createComponent("product", {
-      id: 3883821269070,
-      node: buyButton,
-      options: {
-        product: {
-          variantId: "all",
-          contents: {
-            img: false,
-            imgWithCarousel: false,
-            title: false,
-            variantTitle: false,
-            price: false,
-            description: false,
-            buttonWithQuantity: false,
-            quantity: false
+  let buyButtons = Array.from(document.querySelectorAll(".order-now-button"));
+  if (buyButtons) {
+    buyButtons.forEach(buyButton => {
+      shopifyUI.createComponent("product", {
+        id: 3883821269070,
+        moneyFormat: "%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D",
+        node: buyButton,
+        options: {
+          product: {
+            variantId: "all",
+            iframe: false,
+            contents: {
+              img: false,
+              imgWithCarousel: false,
+              title: false,
+              variantTitle: false,
+              price: false,
+              description: false,
+              buttonWithQuantity: false,
+              quantity: false
+            }
           },
-          styles: {
-            button: {
-              "font-weight": 700,
-              cursor: "pointer",
-              "border-radius": "2px",
-              width: "300px",
-              height: "50px",
-              "font-size": "14px",
-              "text-transform": "uppercase",
-              background: "#f1c40f",
-              color: "white",
-              outline: "none",
-              "text-decoration": "none",
-              ":hover": {
-                background: "#f4d03f"
-              },
-              "@media (max-device-width: 667px)": {
-                "font-weight": "500",
-                cursor: "pointer",
-                "border-radius": "3px",
-                width: "100%",
-                height: "3rem",
-                "font-size": "1rem",
-                "text-transform": "uppercase",
-                background: "#f1c40f",
-                color: "white",
-                "text-decoration": "none"
-              }
+          cart: {
+            contents: {
+              button: true
             },
-            title: {
-              "font-size": "26px"
+            styles: {
+              button: {
+                "background-color": "#f1c40f",
+                ":hover": {
+                  "background-color": "#d9b00e"
+                },
+                "border-radius": "2px",
+                ":focus": {
+                  "background-color": "#d9b00e"
+                }
+              },
+              footer: {
+                "background-color": "#ffffff"
+              }
             }
-          }
-        },
-        cart: {
-          contents: {
-            button: true
           },
-          styles: {
-            button: {
-              "background-color": "#f1c40f",
-              ":hover": {
-                "background-color": "#d9b00e"
+          toggle: {
+            styles: {
+              toggle: {
+                "background-color": "#f1c40f",
+                ":hover": {
+                  "background-color": "#d9b00e"
+                },
+                ":focus": {
+                  "background-color": "#d9b00e"
+                }
               },
-              "border-radius": "2px",
-              ":focus": {
-                "background-color": "#d9b00e"
+              count: {
+                "font-size": "16px"
               }
-            },
-            footer: {
-              "background-color": "#ffffff"
             }
-          }
-        },
-        toggle: {
-          styles: {
-            toggle: {
-              "background-color": "#f1c40f",
-              ":hover": {
-                "background-color": "#d9b00e"
-              },
-              ":focus": {
-                "background-color": "#d9b00e"
-              }
-            },
-            count: {
-              "font-size": "16px"
-            }
-          }
-        },
-        productSet: {
-          styles: {
-            products: {
-              "@media (min-width: 601px)": {
-                "margin-left": "-20px"
+          },
+          productSet: {
+            styles: {
+              products: {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
               }
             }
           }
         }
-      }
+      });
     });
   }
 });

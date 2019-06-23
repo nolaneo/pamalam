@@ -63,7 +63,7 @@ export default props => {
               Please allow 4 - 8 weeks for delivery.
             </p>
             <div className="panel-spacer" />
-            <a className="order-now-button layout__box o__centers-all" />
+            <a className="panel-order-now-button order-now-button layout__box o__centers-all" />
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ export default props => {
           <p className="mobile-panel-price">{piece.price}</p>
           <div className="panel-spacer" />
           <div className="panel-spacer" />
-          <a className="order-now-button layout__box o__centers-all" />
+          <a className="mobile-order-now-button order-now-button layout__box o__centers-all" />
           <div className="panel-spacer" />
           <div className="panel-spacer" />
           <p className="panel-shipping-details">Free international shipping</p>
