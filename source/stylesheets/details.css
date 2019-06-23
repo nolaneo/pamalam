@@ -138,7 +138,7 @@
     font-size: 2rem;
   }
 
-  .mobile-order-now-button {
+  /* .mobile-order-now-button {
     font-weight: 500;
     cursor: pointer;
     border-radius: 3px;
@@ -149,5 +149,5 @@
     background: #f1c40f;
     color: white;
     text-decoration: none;
-  }
+  } */
 }

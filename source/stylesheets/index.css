@@ -43,20 +43,12 @@ p {
   width: 32px;
   height: 32px;
 }
-/*
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
   .down-arrow {
-    position: absolute;
-    bottom: 2rem;
-    left: calc(50% - 3rem);
-    fill: white;
+    bottom: 3rem;
   }
-
-  .down-arrow svg {
-    width: 6rem;
-    height: 6rem;
-  }
-} */
+}
 
 .left-nav {
   box-sizing: border-box;
@@ -137,11 +129,22 @@ p {
   grid-gap: 3vw;
 }
 
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  html,
+  body {
+    scroll-snap-type: both mandatory;
+    scroll-padding-top: 6vh;
+  }
+  .hero {
+    scroll-snap-align: start;
+  }
   .gallery {
     grid-template-columns: initial;
   }
-} */
+  .gallery-wrapper {
+    scroll-snap-align: center;
+  }
+}
 
 .gallery-wrapper {
   margin: 0 auto;
@@ -173,7 +176,7 @@ p {
   text-align: center;
   font-weight: 300;
   text-decoration: none;
-  max-width: 90wv;
+  max-width: 90vw;
 }
 
 .gallery-description:hover {
@@ -282,7 +285,7 @@ p {
   opacity: 0.7;
 }
 
-.panel-order-now-button {
+/* .panel-order-now-button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
@@ -301,7 +304,7 @@ p {
   color: white;
   background: #f4d03f;
   border-color: white;
-}
+} */
 
 .white .panel-order-now-button:hover {
   color: #333;
