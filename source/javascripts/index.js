@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (buyButtons) {
     buyButtons.forEach(buyButton => {
       shopifyUI.createComponent("product", {
-        id: 3883821269070,
+        id: buyButton.getAttribute("data-shopify-id"),
         moneyFormat: "%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D",
         node: buyButton,
         options: {

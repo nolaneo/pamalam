@@ -132,7 +132,7 @@ p {
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
   html,
   body {
-    scroll-snap-type: both mandatory;
+    scroll-snap-type: y mandatory;
     scroll-padding-top: 6vh;
   }
   .hero {
@@ -142,7 +142,7 @@ p {
     grid-template-columns: initial;
   }
   .gallery-wrapper {
-    scroll-snap-align: center;
+    scroll-snap-align: start;
   }
 }
 
@@ -290,8 +290,18 @@ p {
   height: 50px;
   border-radius: 2px;
   background: #f1c40f;
+  position: relative;
+  pointer-events: none;
 }
 
+.shopify-buy__btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: all;
+}
+
+.panel-order-now-button,
 .panel-order-now-button .shopify-buy__btn {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -382,6 +392,7 @@ p {
 
 .t__link:hover {
   text-decoration: underline;
+  text-decoration-color: #f1c40f;
 }
 
 .t__link:visited {
