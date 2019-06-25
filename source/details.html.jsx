@@ -64,11 +64,10 @@ export default props => {
             </p>
             <div className="panel-spacer" />
             <a
-              href={piece.link}
-              className="panel-order-now-button layout__box o__centers-all"
-              target="_blank"
+              className="panel-order-now-button order-now-button layout__box o__centers-all"
+              data-shopify-id={piece.shopify_id}
             >
-              Buy now on Etsy
+              ADD TO CART
             </a>
           </div>
         </div>
@@ -108,11 +107,10 @@ export default props => {
           <div className="panel-spacer" />
           <div className="panel-spacer" />
           <a
-            href={piece.link}
-            className="mobile-order-now-button layout__box o__centers-all"
-            target="_blank"
+            className="mobile-order-now-button order-now-button layout__box o__centers-all"
+            data-shopify-id={piece.shopify_id}
           >
-            Buy now on Etsy
+            ADD TO CART
           </a>
           <div className="panel-spacer" />
           <div className="panel-spacer" />

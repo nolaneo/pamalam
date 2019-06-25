@@ -43,20 +43,12 @@ p {
   width: 32px;
   height: 32px;
 }
-/*
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: portrait) {
   .down-arrow {
-    position: absolute;
-    bottom: 2rem;
-    left: calc(50% - 3rem);
-    fill: white;
+    bottom: 3rem;
   }
-
-  .down-arrow svg {
-    width: 6rem;
-    height: 6rem;
-  }
-} */
+}
 
 .left-nav {
   box-sizing: border-box;
@@ -137,11 +129,22 @@ p {
   grid-gap: 3vw;
 }
 
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  html,
+  body {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 6vh;
+  }
+  .hero {
+    scroll-snap-align: start;
+  }
   .gallery {
     grid-template-columns: initial;
   }
-} */
+  .gallery-wrapper {
+    scroll-snap-align: start;
+  }
+}
 
 .gallery-wrapper {
   margin: 0 auto;
@@ -173,7 +176,7 @@ p {
   text-align: center;
   font-weight: 300;
   text-decoration: none;
-  max-width: 90wv;
+  max-width: 90vw;
 }
 
 .gallery-description:hover {
@@ -283,6 +286,23 @@ p {
 }
 
 .panel-order-now-button {
+  width: 300px;
+  height: 50px;
+  border-radius: 2px;
+  background: #f1c40f;
+  position: relative;
+  pointer-events: none;
+}
+
+.shopify-buy__btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: all;
+}
+
+.panel-order-now-button,
+.panel-order-now-button .shopify-buy__btn {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   cursor: pointer;
@@ -295,9 +315,11 @@ p {
   background: #f1c40f;
   color: white;
   text-decoration: none;
+  border: 0;
+  outline: none;
 }
 
-.panel-order-now-button:hover {
+.panel-order-now-button .shopify-buy__btn:hover {
   color: white;
   background: #f4d03f;
   border-color: white;
@@ -370,6 +392,7 @@ p {
 
 .t__link:hover {
   text-decoration: underline;
+  text-decoration-color: #f1c40f;
 }
 
 .t__link:visited {

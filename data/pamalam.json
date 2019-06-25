@@ -1,5 +1,6 @@
 {
-  "pieces": [{
+  "pieces": [
+    {
       "id": 1,
       "title": "Organza trousers",
       "price": "€125",
@@ -11,7 +12,8 @@
       ],
       "fabric": "Material: Embroidered organza",
       "link": "https://www.etsy.com/listing/701376771/organza-trousers",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3883821269070
     },
     {
       "id": 2,
@@ -24,7 +26,8 @@
       ],
       "fabric": "Material: Wool cashmere, 100% wax cotton",
       "link": "https://www.etsy.com/listing/687521188/wool-cashmere-short-jacket",
-      "number_of_images": 2
+      "number_of_images": 2,
+      "shopify_id": 3885378404430
     },
     {
       "id": 3,
@@ -34,7 +37,8 @@
       "details": ["High neck sheer bodysuit", "Zip closure"],
       "fabric": "Material: Embroidered tulle",
       "link": "https://www.etsy.com/listing/699654063/black-and-sheer-bodysuit",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885398032462
     },
     {
       "id": 4,
@@ -47,7 +51,8 @@
       ],
       "fabric": "Material: Embroidered tulle, leather",
       "link": "https://www.etsy.com/listing/701378751/embroidered-tulle-and-leather-drape",
-      "number_of_images": 4
+      "number_of_images": 4,
+      "shopify_id": 3885408780366
     },
     {
       "id": 5,
@@ -62,7 +67,8 @@
       ],
       "fabric": "Material: Cotton",
       "link": "https://www.etsy.com/listing/701376317/embroidered-cotton-plunge-dress",
-      "number_of_images": 2
+      "number_of_images": 2,
+      "shopify_id": 3885409632334
     },
     {
       "id": 6,
@@ -75,7 +81,8 @@
       ],
       "fabric": "Material: Silk blend, leather",
       "link": "https://www.etsy.com/listing/687522820/black-silk-shirt-with-leather-collar",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885410418766
     },
     {
       "id": 7,
@@ -89,7 +96,8 @@
       ],
       "fabric": "Material: Wool cashmere, silk blend",
       "link": "https://www.etsy.com/listing/701380611/wool-cashmere-cape",
-      "number_of_images": 2
+      "number_of_images": 2,
+      "shopify_id": 3885411631182
     },
     {
       "id": 8,
@@ -99,7 +107,8 @@
       "details": ["High neck sheer bodysuit", "Zip closure"],
       "fabric": "Material: Embroidered tulle",
       "link": "https://www.etsy.com/listing/701380355/sheer-flower-bodysuit-in-white-and",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885412712526
     },
     {
       "id": 9,
@@ -114,7 +123,8 @@
       ],
       "fabric": "Material: Polyester, silk blend",
       "link": "https://www.etsy.com/listing/699651805/leopard-print-dress",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885414219854
     },
     {
       "id": 10,
@@ -128,7 +138,8 @@
       ],
       "fabric": "Material: 100% Linen",
       "link": "https://www.etsy.com/listing/687524760/linen-trousers-in-bulgary",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885415366734
     },
     {
       "id": 11,
@@ -141,7 +152,8 @@
       ],
       "fabric": "Material: Silk blend, leather, organza",
       "link": "https://www.etsy.com/listing/687523392/silk-and-organza-shirt-with-leather",
-      "number_of_images": 4
+      "number_of_images": 4,
+      "shopify_id": 3885416841294
     },
     {
       "id": 12,
@@ -155,7 +167,8 @@
       ],
       "fabric": "Material: 100% Linen, silk cotton blend",
       "link": "https://www.etsy.com/listing/687525088/linen-and-silk-cotton-trousers",
-      "number_of_images": 2
+      "number_of_images": 2,
+      "shopify_id": 3885417857102
     },
     {
       "id": 13,
@@ -169,7 +182,8 @@
       ],
       "fabric": "Material: 100% Silk dupioni and wool cashmere",
       "link": "https://www.etsy.com/listing/687524502/silk-skirt-with-pockets",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885418676302
     },
     {
       "id": 14,
@@ -183,7 +197,8 @@
       ],
       "fabric": "Material: 100% wax cotton, leather, satin",
       "link": "https://www.etsy.com/listing/687524064/nsubura-print-and-leather-drape-cardigan",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885419987022
     },
     {
       "id": 15,
@@ -198,7 +213,8 @@
       ],
       "fabric": "Material: Satin, tulle, silk organza",
       "link": "https://www.etsy.com/listing/687522554/satin-and-embroidered-tulle-plunge-dress",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885421330510
     },
     {
       "id": 16,
@@ -211,7 +227,8 @@
       ],
       "fabric": "Material: Textured chiffon",
       "link": "https://www.etsy.com/listing/687523194/panelled-shirt-with-leather-collar",
-      "number_of_images": 4
+      "number_of_images": 4,
+      "shopify_id": 3885422673998
     },
     {
       "id": 17,
@@ -225,7 +242,8 @@
       ],
       "fabric": "Material: Leather, silk blend",
       "link": "https://www.etsy.com/listing/701377041/leather-pencil-skirt",
-      "number_of_images": 3
+      "number_of_images": 3,
+      "shopify_id": 3885423296590
     }
   ]
 }

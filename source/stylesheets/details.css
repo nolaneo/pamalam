@@ -139,6 +139,15 @@
   }
 
   .mobile-order-now-button {
+    width: 100%;
+    height: 3rem;
+    background: #f1c40f;
+    position: relative;
+    pointer-events: none;
+  }
+
+  .mobile-order-now-button .shopify-buy__btn {
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     cursor: pointer;
     border-radius: 3px;
@@ -149,5 +158,7 @@
     background: #f1c40f;
     color: white;
     text-decoration: none;
+    border: 0;
+    outline: none;
   }
 }
