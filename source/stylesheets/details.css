@@ -144,6 +144,7 @@
     background: #f1c40f;
     position: relative;
     pointer-events: none;
+    color: white;
   }
 
   .mobile-order-now-button .shopify-buy__btn {

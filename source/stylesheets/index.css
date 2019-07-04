@@ -301,6 +301,44 @@ p {
   pointer-events: all;
 }
 
+.shopify-buy__option-select__select {
+  pointer-events: all;
+}
+
+.shopify-buy__option-select__select {
+  position: absolute;
+  top: -37px;
+  right: 0;
+  width: 240px;
+  border-color: #ccc;
+  height: 30px;
+  font-size: 12px;
+}
+
+.shopify-buy__option-select__label {
+  color: #333;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  height: 30px;
+  line-height: 30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  .shopify-buy__option-select__select {
+    top: -47px;
+  }
+  .shopify-buy__option-select__label {
+    top: -45px;
+  }
+}
+
+.shopify-buy__select-icon {
+  display: none;
+}
+
 .panel-order-now-button,
 .panel-order-now-button .shopify-buy__btn {
   font-family: "Raleway", sans-serif;

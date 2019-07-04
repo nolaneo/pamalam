@@ -63,6 +63,7 @@ export default props => {
               Please allow 4 - 8 weeks for delivery.
             </p>
             <div className="panel-spacer" />
+            <div className="panel-spacer" />
             <a
               className="panel-order-now-button order-now-button layout__box o__centers-all"
               data-shopify-id={piece.shopify_id}
@@ -104,6 +105,9 @@ export default props => {
           <div className="layout__box o__flexes-to-1" />
           <div className="panel-spacer" />
           <p className="mobile-panel-price">{piece.price}</p>
+          <div className="panel-spacer" />
+          <div className="panel-spacer" />
+          <div className="panel-spacer" />
           <div className="panel-spacer" />
           <div className="panel-spacer" />
           <a
