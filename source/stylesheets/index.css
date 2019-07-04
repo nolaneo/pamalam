@@ -493,6 +493,38 @@ p {
   color: #f1c40f;
 }
 
+.boring-footer {
+  border-top: 1px solid #efefef;
+  background-color: #fafafa;
+  color: #888;
+  padding: 0.5rem;
+}
+
+.boring-item-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.boring-item {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #888;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
+.boring-item:hover {
+  color: #f1c40f;
+}
+
+.boring-page {
+  padding: 4rem;
+}
+
+.boring-page * {
+  line-height: 150%;
+}
+
 @media only screen and (min-width: 1024px) {
   .footer-boxes {
     display: flex !important;

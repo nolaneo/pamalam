@@ -65,6 +65,20 @@ export default props => {
             </div>
           </div>
         </div>
+        <div class="layout__box boring-footer o__centers-horizontally">
+          <div class="layout__box o__has-columns">
+            <div class="boring-item-container">
+              <a class="boring-item" href="/privacy-policy">
+                Privacy Policy
+              </a>
+            </div>
+            <div class="boring-item-container">
+              <a class="boring-item" href="/terms-and-conditions-of-sale">
+                Terms &amp; Conditions of Sale
+              </a>
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );
