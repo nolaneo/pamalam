@@ -322,12 +322,10 @@ p {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 3px;
-  box-sizing: border-box;
   max-width: 100%;
   max-height: 75vh;
   cursor: pointer;
   border: 2px solid #eee;
-  transition: all 200ms ease-in-out;
 }
 
 .gallery-image:hover {
