@@ -53,7 +53,7 @@ export default props => {
               Every item is handmade to order in your size.
             </p>
             <div className="layout__box o__flexes-to-1" />
-            <p className="panel-price">{piece.price}</p>
+            {/* <p className="panel-price">{piece.price}</p>
             <p className="panel-shipping-details">
               Free international shipping
             </p>
@@ -69,7 +69,7 @@ export default props => {
               data-shopify-id={piece.shopify_id}
             >
               ADD TO CART
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
