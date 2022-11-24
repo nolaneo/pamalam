@@ -104,26 +104,26 @@ export default props => {
           </p>
           <div className="layout__box o__flexes-to-1" />
           <div className="panel-spacer" />
-          <p className="mobile-panel-price">{piece.price}</p>
+          {/* <p className="mobile-panel-price">{piece.price}</p> */}
           <div className="panel-spacer" />
           <div className="panel-spacer" />
           <div className="panel-spacer" />
           <div className="panel-spacer" />
           <div className="panel-spacer" />
-          <a
+          {/* <a
             className="mobile-order-now-button order-now-button layout__box o__centers-all"
             data-shopify-id={piece.shopify_id}
           >
             ADD TO CART
-          </a>
+          </a> */}
           <div className="panel-spacer" />
           <div className="panel-spacer" />
-          <p className="panel-shipping-details">Free international shipping</p>
+          {/* <p className="panel-shipping-details">Free international shipping</p>
           <p className="panel-handmade-details">
             Every item is handmade to order and shipped by registered mail.
             <br />
             Please allow 4 - 8 weeks for delivery.
-          </p>
+          </p> */}
         </div>
       </div>
     </Layout>
