@@ -23,14 +23,12 @@
   cursor: pointer;
   border: 1px solid white;
   transition: all 100ms ease-in-out;
-  -webkit-filter: grayscale(100%) contrast(150%);
-          filter: grayscale(100%) contrast(150%);
+  filter: grayscale(100%) contrast(150%);
 }
 
 .details__thumbnail:hover {
   border-color: #f1c40f;
-  -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 
 .details__main-image {
@@ -172,6 +170,7 @@ html {
   margin: 0;
   font-family: "Raleway", sans-serif;
   max-width: 100%;
+  height: 100%;
 }
 
 h1,
@@ -182,20 +181,10 @@ p {
 .hero {
   background-image: url("/assets/images/hero.jpg");
   background-size: cover, cover;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-position: center;
-  position: relative;
-}
-
-.hero-callout {
-  font-size: 10vh;
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  position: absolute;
-  bottom: 8vh;
-  left: 8vh;
-  color: #333;
+  margin-bottom: 20px;
 }
 
 .down-arrow {
@@ -246,16 +235,15 @@ p {
   font-size: 20px;
   position: fixed;
   padding-left: 2vw;
-  line-height: 6vh;
+  line-height: 50px;
   top: 0;
   left: 0;
   right: 0;
   border-bottom: 1px solid #eee;
-  height: 6vh;
+  height: 50px;
   box-sizing: border-box;
   background-color: white;
   z-index: 20;
-  transition: all 200ms ease-in-out;
   text-decoration: none;
 }
 
@@ -286,21 +274,16 @@ p {
 }
 
 .gallery {
-  box-sizing: border-box;
-  padding: 10vh 5vw;
   display: grid;
-  min-height: 100vh;
-  min-width: 100vw;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  min-height: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   grid-gap: 3vw;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
-  html,
+  /* html,
   body {
-    -ms-scroll-snap-type: y proximity;
-        scroll-snap-type: y proximity;
-    scroll-padding-top: 6vh;
+    scroll-snap-type: y proximity;
   }
   .hero {
     scroll-snap-align: start;
@@ -310,12 +293,14 @@ p {
   }
   .gallery-wrapper {
     scroll-snap-align: start;
-  }
+  } */
 }
 
 .gallery-wrapper {
-  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
   text-decoration: none;
+  padding: 10px;
 }
 
 .gallery-image {
@@ -326,12 +311,12 @@ p {
   max-height: 75vh;
   cursor: pointer;
   border: 2px solid #eee;
+  box-sizing: border-box;
 }
 
 .gallery-image:hover {
   border-color: #f9e79f;
-  -webkit-filter: brightness(105%);
-          filter: brightness(105%);
+  filter: brightness(105%);
 }
 
 .gallery-description {
@@ -363,8 +348,17 @@ p {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .gallery-image {
-    width: 100%;
+    width: 90vw;
     height: auto;
+  }
+
+  .main-panel {
+    height: 100%;
+  }
+
+  .gallery {
+    min-height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 }
 
@@ -383,12 +377,10 @@ p {
 .main-panel {
   border-top: 1px solid #ccc;
   box-sizing: border-box;
-  height: 88vh;
-  min-height: -webkit-fit-content;
+  height: 100%;
   min-height: -moz-fit-content;
   min-height: fit-content;
   overflow: hidden;
-  padding-top: 6vh;
 }
 
 .main-panel-inner {
@@ -479,7 +471,7 @@ p {
   position: absolute;
   top: -37px;
   right: 0;
-  width: 240px;
+  width: 230px;
   border-color: #ccc;
   height: 30px;
   font-size: 12px;
@@ -536,12 +528,6 @@ p {
 .white .panel-order-now-button:hover {
   color: #333;
   background: white;
-}
-
-.hero-model {
-  margin-top: 2vh;
-  height: 88vh;
-  border-radius: 1vh;
 }
 
 .layout__box {

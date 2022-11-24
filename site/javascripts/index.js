@@ -20,7 +20,6 @@
         document.querySelector(".details__main-image").style.backgroundImage = e.target.style.backgroundImage;
       });
     });
-
     if (document.querySelector(".swiper-container")) {
       new Swiper(".swiper-container", {
         direction: "horizontal",
@@ -30,14 +29,12 @@
         }
       });
     }
-
     var client = ShopifyBuy.buildClient({
       domain: "pamalamstudio.myshopify.com",
       storefrontAccessToken: "9dd1ea25a2614fb14cd14f48543d4846"
     });
     var shopifyUI = ShopifyBuy.UI.init(client);
     var buyButtons = Array.from(document.querySelectorAll(".order-now-button"));
-
     if (buyButtons) {
       buyButtons.forEach(function (buyButton) {
         shopifyUI.createComponent("product", {
@@ -110,40 +107,31 @@
     }
   });
   window.dataLayer = window.dataLayer || [];
-
   function gtag() {
     dataLayer.push(arguments);
   }
-
   gtag("js", new Date());
   gtag("config", "UA-141344238-1");
   window.intercomSettings = {
     app_id: "ec3q1hf4",
     hide_default_launcher: true
   };
-
   (function () {
     var w = window;
     var ic = w.Intercom;
-
     if (typeof ic === "function") {
       ic("reattach_activator");
       ic("update", w.intercomSettings);
     } else {
       var d = document;
-
       var i = function i() {
         i.c(arguments);
       };
-
       i.q = [];
-
       i.c = function (args) {
         i.q.push(args);
       };
-
       w.Intercom = i;
-
       var l = function l() {
         var s = d.createElement("script");
         s.type = "text/javascript";
@@ -152,7 +140,6 @@
         var x = d.getElementsByTagName("script")[0];
         x.parentNode.insertBefore(s, x);
       };
-
       if (w.attachEvent) {
         w.attachEvent("onload", l);
       } else {
@@ -161,4 +148,4 @@
     }
   })();
 
-}());
+})();
