@@ -5,7 +5,8 @@
 .details__wrapper {
   padding: 20px;
   box-sizing: border-box;
-  height: 94vh;
+  height: fit-content !important;
+  min-height: 94vh;  
 }
 
 .details__thumbnail-gallery {
@@ -42,7 +43,7 @@
 
 .details__information {
   width: 500px;
-  height: 640px;
+  height: fit-content !important;
 }
 
 .details__title {

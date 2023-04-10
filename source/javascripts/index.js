@@ -30,84 +30,111 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
-  let client = ShopifyBuy.buildClient({
-    domain: "pamalamstudio.myshopify.com",
-    storefrontAccessToken: "9dd1ea25a2614fb14cd14f48543d4846"
-  });
-  let shopifyUI = ShopifyBuy.UI.init(client);
+  function loadScript() {
+    console.log("Script should be here")
+  }
 
-  let buyButtons = Array.from(document.querySelectorAll(".order-now-button"));
-  if (buyButtons) {
-    buyButtons.forEach(buyButton => {
-      shopifyUI.createComponent("product", {
-        id: buyButton.getAttribute("data-shopify-id"),
-        moneyFormat: "%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D",
-        node: buyButton,
+  function ShopifyBuyInit() {
+    let client = ShopifyBuy.buildClient({
+      domain: "pamalamstudio.myshopify.com",
+      storefrontAccessToken: "9dd1ea25a2614fb14cd14f48543d4846"
+    });
 
-        options: {
-          product: {
-            variantId: "all",
-            iframe: false,
-            contents: {
-              img: false,
-              imgWithCarousel: false,
-              title: false,
-              variantTitle: false,
-              price: false,
-              description: false,
-              buttonWithQuantity: false,
-              quantity: false
-            }
-          },
-          cart: {
-            contents: {
-              button: true
+    console.log("Created shopify client");
+
+    let shopifyUI = ShopifyBuy.UI.init(client);
+
+    let buyButtons = Array.from(document.querySelectorAll(".order-now-button"));
+    if (buyButtons) {
+
+      buyButtons.forEach(buyButton => {
+        console.log("Attempting to create shopify component for ", buyButton.getAttribute("data-shopify-id"));
+
+        shopifyUI.createComponent("product", {
+          id: buyButton.getAttribute("data-shopify-id"),
+          moneyFormat: "%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D",
+          node: buyButton,
+
+          options: {
+            product: {
+              variantId: "all",
+              iframe: false,
+              contents: {
+                img: false,
+                imgWithCarousel: false,
+                title: false,
+                variantTitle: false,
+                price: false,
+                description: false,
+                buttonWithQuantity: false,
+                quantity: false
+              }
             },
-            styles: {
-              button: {
-                "background-color": "#f1c40f",
-                ":hover": {
-                  "background-color": "#d9b00e"
-                },
-                "border-radius": "2px",
-                ":focus": {
-                  "background-color": "#d9b00e"
-                }
+            cart: {
+              contents: {
+                button: true
               },
-              footer: {
-                "background-color": "#ffffff"
-              }
-            }
-          },
-          toggle: {
-            styles: {
-              toggle: {
-                "background-color": "#f1c40f",
-                ":hover": {
-                  "background-color": "#d9b00e"
+              styles: {
+                button: {
+                  "background-color": "#f1c40f",
+                  ":hover": {
+                    "background-color": "#d9b00e"
+                  },
+                  "border-radius": "2px",
+                  ":focus": {
+                    "background-color": "#d9b00e"
+                  }
                 },
-                ":focus": {
-                  "background-color": "#d9b00e"
+                footer: {
+                  "background-color": "#ffffff"
                 }
-              },
-              count: {
-                "font-size": "16px"
               }
-            }
-          },
-          productSet: {
-            styles: {
-              products: {
-                "@media (min-width: 601px)": {
-                  "margin-left": "-20px"
+            },
+            toggle: {
+              styles: {
+                toggle: {
+                  "background-color": "#f1c40f",
+                  ":hover": {
+                    "background-color": "#d9b00e"
+                  },
+                  ":focus": {
+                    "background-color": "#d9b00e"
+                  }
+                },
+                count: {
+                  "font-size": "16px"
+                }
+              }
+            },
+            productSet: {
+              styles: {
+                products: {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
+                  }
                 }
               }
             }
           }
-        }
+        });
       });
-    });
+    }
   }
+
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    } 
+  } else {
+    loadScript();
+  }
+
+ 
+  
+
+  
 });
 
 window.dataLayer = window.dataLayer || [];

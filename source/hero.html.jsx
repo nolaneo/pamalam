@@ -1,6 +1,12 @@
-export default () => {
+export default (props) => {
   return (
-    <div class="hero">
+    <div class={`hero ${props.heroType}`}>
+      <a class="hero-button no-underline" href={props.link}>
+        {props.linkText}
+      </a>
+      <div class="hero-text">
+        {props.detailText}
+      </div>
       <div class="down-arrow">
         <svg viewBox="0 0 50 50">
           <g id="surface1">
