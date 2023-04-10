@@ -1,9 +1,55 @@
 {
+  "candles": [
+    {
+      "id": "candle-1",
+      "title": "Bergamot & Patchouli",
+      "price": "€20",
+      "path": "bergamot-and-patchouli",
+      "details": [],
+      "number_of_images": 4,
+      "shopify_id": 6863752593486
+    },
+    {
+      "id": "candle-2",
+      "title": "Coconut & Lime",
+      "price": "€20",
+      "path": "coconut-and-lime",
+      "details": [],
+      "number_of_images": 4,
+      "shopify_id": 6855630749774
+    },
+    {
+      "id": "candle-3",
+      "title": "Tobacco & Oak",
+      "price": "€20",
+      "path": "tobacco-and-oak",
+      "details": [],
+      "number_of_images": 4,
+      "shopify_id": 6863377694798
+    },
+    {
+      "id": "candle-4",
+      "title": "Clove & Orange",
+      "price": "€20",
+      "path": "clove-and-orange",
+      "details": [],
+      "number_of_images": 4,
+      "shopify_id": 6863378350158
+    },
+    {
+      "id": "candle-5",
+      "title": "Amber & Citrus",
+      "price": "€20",
+      "path": "amber-and-citrus",
+      "details": [],
+      "number_of_images": 4,
+      "shopify_id": 6863378022478
+    }
+  ],
   "pieces": [
     {
       "id": 1,
       "title": "Organza trousers",
-      "price": "€125",
       "path": "organza-trousers",
       "details": [
         "High waist front pleated trousers with pockets and cuffs",
@@ -18,7 +64,6 @@
     {
       "id": 2,
       "title": "Wool cashmere jacket",
-      "price": "€145",
       "path": "wool-cashmere-jacket",
       "details": [
         "Oversized short sleeved jacket",
@@ -32,7 +77,6 @@
     {
       "id": 3,
       "title": "Black bodysuit",
-      "price": "€75",
       "path": "black-bodysuit",
       "details": ["High neck sheer bodysuit", "Zip closure"],
       "fabric": "Material: Embroidered tulle",
@@ -43,7 +87,6 @@
     {
       "id": 4,
       "title": "Embroidered tulle drape cardigan",
-      "price": "€139",
       "path": "embroidered-tulle-drape-cardigan",
       "details": [
         "Wide drape cardigan in embroidered tulle",
@@ -57,7 +100,6 @@
     {
       "id": 5,
       "title": "Embroidered cotton plunge dress",
-      "price": "€115",
       "path": "embroidered-cotton-plunge-dress",
       "details": [
         "Embroidered cotton dress with a plunging neckline",
@@ -73,7 +115,6 @@
     {
       "id": 6,
       "title": "Silk shirt with leather collar",
-      "price": "€95",
       "path": "silk-shirt-with-leather-collar",
       "details": [
         "Loose shirt in a silk blend with a leather collar",
@@ -87,7 +128,6 @@
     {
       "id": 7,
       "title": "Wool cashmere cape",
-      "price": "€195",
       "path": "wool-cashmere-cape",
       "details": [
         "Cape in a heavy wool cashmere",
@@ -102,7 +142,6 @@
     {
       "id": 8,
       "title": "Embroidered bodysuit",
-      "price": "€75",
       "path": "embroidered-bodysuit",
       "details": ["High neck sheer bodysuit", "Zip closure"],
       "fabric": "Material: Embroidered tulle",
@@ -113,7 +152,6 @@
     {
       "id": 9,
       "title": "Leopard print dress",
-      "price": "€135",
       "path": "leopard-print-dress",
       "details": [
         "Strapless leopard print dress",
@@ -129,7 +167,6 @@
     {
       "id": 10,
       "title": "Bulgary linen trousers",
-      "price": "€195",
       "path": "bulgary-linen-trousers",
       "details": [
         "High waist front pleated trousers with pockets and cuffs",
@@ -144,7 +181,6 @@
     {
       "id": 11,
       "title": "Silk and organza shirt with leather collar",
-      "price": "€115",
       "path": "silk-and-organza-shirt-with-leather-collar",
       "details": [
         "Loose shirt in a silk blend with a leather collar",
@@ -158,7 +194,6 @@
     {
       "id": 12,
       "title": "Linen and silk cotton trousers",
-      "price": "€125",
       "path": "linen-and-silk-cotton-trousers",
       "details": [
         "High waist front pleated trousers with pockets and cuffs",
@@ -173,7 +208,6 @@
     {
       "id": 13,
       "title": "Silk skirt with pockets",
-      "price": "€185",
       "path": "silk-skirt-with-pockets",
       "details": [
         "High waist, full skirt with pockets",
@@ -188,7 +222,6 @@
     {
       "id": 14,
       "title": "Nsubura drape cardigan",
-      "price": "€159",
       "path": "nsubura-drape-cardigan",
       "details": [
         "Wide drape cardigan in nsubura print cotton",
@@ -203,7 +236,6 @@
     {
       "id": 15,
       "title": "Satin and tulle plunge dress",
-      "price": "€125",
       "path": "satin-and-tulle-plunge-dress",
       "details": [
         "Satin and tulle dress with a plunging neckline",
@@ -219,7 +251,6 @@
     {
       "id": 16,
       "title": "Panelled shirt with leather collar",
-      "price": "€125",
       "path": "panelled-shirt-with-leather-collar",
       "details": [
         "Loose mustard and pink panelled shirt in a textured chiffon with a leather collar",
@@ -233,7 +264,6 @@
     {
       "id": 17,
       "title": "Leather pencil skirt",
-      "price": "€149",
       "path": "leather-pencil-skirt",
       "details": [
         "Fitted leather pencil skirt",
