@@ -10,7 +10,7 @@ export default (props) => {
       <div className="details__description layout__box o__has-rows">
         <br/>
 
-        <p>DA woody aroma of dry dusty tobacco, soft bergamot and sun sweetened mandarin. Hints of rock rose, black pepper and roasted nutmeg are accompanied by a heart of patchouli and gentle tobacco flower, leading to a rich base of sandalwood, sensual amber, leather and musk.</p>
+        <p>A woody aroma of dry dusty tobacco, soft bergamot and sun sweetened mandarin. Hints of rock rose, black pepper and roasted nutmeg are accompanied by a heart of patchouli and gentle tobacco flower, leading to a rich base of sandalwood, sensual amber, leather and musk.</p>
         <br/>
 
         <p><b>Top Notes:</b> Bergamot, Mandarin</p>
